@@ -9,7 +9,7 @@ let str = "internet";
 // for print single character from the string 
 // 2.  String charAt()
 // console.log(str.charAt(1)) n 
-
+  
 // 3.  String charCodeAt()
 //  console.log(str.charCodeAt(0)) it provide the code of ASCII 
 
