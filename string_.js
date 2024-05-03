@@ -1,4 +1,4 @@
-// String methods
+// String methods in Javascript
 
 //length
 //1.  string.length() => it start from 0 index
