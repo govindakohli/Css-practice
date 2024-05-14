@@ -81,27 +81,35 @@ let attribute = document.querySelector("button")
   // +++++++++++++++++++++++++++++++++++++insert element by js +++++++++++++++++++++++++++++++
 
   // ++++++++++++++++++++add a button in html by js
-  // 1. appren   add at the inside the end  of selected element 
+  // 1. apprend   add at the inside the end  of selected element 
    
   let button = document.createElement("button");
   button.innerText="click me !";
     button.style.cssText = "background-color : white; color:blue ; border:2px solid rgb(47, 0, 255) ;  " // css is optional
 
   let parentsNode = document.querySelector("p");
+//  parentsNode.append(button); 
 //  parentsNode.appendChild(button); 
 
+
 //2. prepand   add at the inside the start  of selected element
-// parentsNode.prepend(button); 
+parentsNode.prepend(button); 
 
 //3. before     add at the outside  the before  start   of selected element
 // parentsNode.before(button); 
 
 //4. after     add at the outside  the after   end    of selected element
-parentsNode.after(button); 
+// parentsNode.after(button); 
 
 // +++++++++++++++++++++++++++++++++++++Delete element by js +++++++++++++++++++++++++++++++
 
+// Select the parent element
+// let removeButton = document.querySelector("p");
+// Select the child element
+// let removeChild = document.querySelector("button")
 
+// Remove the child element from the parent
+// removeButton.removeChild(removeChild);
 
 
 
