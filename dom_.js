@@ -56,7 +56,7 @@ let QuerySelectorAll = document.querySelectorAll("he");
 //+++++++++++++++++++++++++++++++ attribute related 
 // ++++++++++++++++how to call an attribute
 //  call single attribute by attribute name 
-let attribute = document.querySelector("button")
+// let attribute = document.querySelector("button")
 
 // let attributeValue = attribute.getAttribute("style")
 // call all availbe  attribute in element  
@@ -87,13 +87,17 @@ let attribute = document.querySelector("button")
   button.innerText="click me !";
     button.style.cssText = "background-color : white; color:blue ; border:2px solid rgb(47, 0, 255) ;  " // css is optional
 
-  let parentsNode = document.querySelector("p");
+  // let parentsNode = document.querySelector("p");
 //  parentsNode.append(button); 
 //  parentsNode.appendChild(button); 
 
 
 //2. prepand   add at the inside the start  of selected element
-parentsNode.prepend(button); 
+// parentsNode.prepend(button); 
+
+
+
+
 
 //3. before     add at the outside  the before  start   of selected element
 // parentsNode.before(button); 
@@ -111,6 +115,21 @@ parentsNode.prepend(button);
 // Remove the child element from the parent
 // removeButton.removeChild(removeChild);
 
+//Q 1
+let newButton = document.createElement("button");
+newButton.innerText="click me !";
+newButton.style="background-color:red; color:white;border:2px solid rgb(47, 0, 255)";
+
+let addButton = document.querySelector("body");
+addButton.prepend(newButton);
+console.dir(newButton)
+
+
+//Q 2
+let paragraph = document.querySelector("p")
+let attribute = paragraph.getAttribute("para")
+paragraph.classList = "newPara";
+paragraph.innerHTML=  "Hey ... i am new here can you help me to find the new way to get some new properties and as well as new things in my life .. you know i am so excited to explore new things in my life .. and i want to inform you that i am a quick learner and as well as new guide and as well as  i am so good in manage things like . manage team and work etc.."
 
 
 
