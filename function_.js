@@ -139,3 +139,15 @@
 // console.log("next table ")
 // table10()
 
+// how to print any table by function 
+
+
+// function table(a)  
+// {
+//     for(let i=0;i<=10;i++)
+//         {
+//             console.log( `${a} x ${i} =`, i*a);
+//         }
+// }
+//  table(5)
+// table(6)
