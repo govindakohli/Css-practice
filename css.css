@@ -1,8 +1,12 @@
-/* body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0; 
+    background: black;
 }
+
+
+/* }
 
 header {
     background-color: #1DB954;
@@ -89,4 +93,67 @@ body {
 .dark {
     background: black;
     color:white;
+}
+
+
+/* dom bulb on off  */
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+h1 {
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding: 5px;
+}
+#image {
+    border: 10px solid black;
+    height: 400px;
+    width: 300px;
+    margin-left: 40%;
+    display: block;
+   
+}
+
+button{
+    margin-top: 10px;
+    margin-left: 47%;
+    cursor: pointer;
+    background: none;
+    color: white;
+    padding: 5px;
+    height: 40px;
+    width: 110px;
+    font-size: 1.2rem;
+    border: 2px solid white;
+
+}
+
+button{
+    margin-top: 10px;
+    margin-left: 47%;
+    cursor: pointer;
+    background: none;
+    color: white;
+    padding: 5px;
+    height: 40px;
+    width: 110px;
+    font-size: 1.2rem;
+    border: 2px solid white;
+
+}
+
+#newBtn{
+    position: absolute;
+    left: 40%;
+    top: 1.5%;
+    cursor: pointer;
+    background: none;
+    color: white;
+    padding: 5px;
+    height: 40px;
+    width: 150px;
+    font-size: 1rem;
 }

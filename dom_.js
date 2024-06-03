@@ -116,22 +116,58 @@ let QuerySelectorAll = document.querySelectorAll("he");
 // removeButton.removeChild(removeChild);
 
 //Q 1
-let newButton = document.createElement("button");
-newButton.innerText="click me !";
-newButton.style="background-color:red; color:white;border:2px solid rgb(47, 0, 255)";
+// let newButton = document.createElement("button");
+// newButton.innerText="click me !";
+// newButton.style="background-color:red; color:white;border:2px solid rgb(47, 0, 255)";
 
-let addButton = document.querySelector("body");
-addButton.prepend(newButton);
-console.dir(newButton)
-
-
-//Q 2
-let paragraph = document.querySelector("p")
-let attribute = paragraph.getAttribute("para")
-paragraph.classList = "newPara";
-paragraph.innerHTML=  "Hey ... i am new here can you help me to find the new way to get some new properties and as well as new things in my life .. you know i am so excited to explore new things in my life .. and i want to inform you that i am a quick learner and as well as new guide and as well as  i am so good in manage things like . manage team and work etc.."
+// let addButton = document.querySelector("body");
+// addButton.prepend(newButton);
+// console.dir(newButton)
 
 
+// //Q 2
+// let paragraph = document.querySelector("p")
+// let attribute = paragraph.getAttribute("para")
+// paragraph.classList = "newPara";
+// paragraph.innerHTML=  "Hey ... i am new here can you help me to find the new way to get some new properties and as well as new things in my life .. you know i am so excited to explore new things in my life .. and i want to inform you that i am a quick learner and as well as new guide and as well as  i am so good in manage things like . manage team and work etc.."
 
+let body = document.querySelector("body")
+// let newBtn = document.querySelector("#newBtn")
+let bulb = document.querySelector("img")
+let btn = document.querySelector("#bulbBTN")
+let h1 = document.querySelector("h1")
 
+// let currMode = "light"
+// newBtn.addEventListener("click" , () => {
+//     if (currMode=="light"){
+//         currMode = "dark"
+//         body.classList.add("dark")
+//         body.classList.remove("light")
+//         h1.style.color= "white"
+//         h1.style.borderBottom= "2px solid white"
+//     }else  {
+//         currMode = "light"
+//         body.classList.add("light")
+//         body.classList.remove("dark")
+//         h1.style.color= "black"
+//         h1.style.borderBottom= "2px solid black"
+//     }
+//     console.log (currMode)
+// } )
+// on off bulb image 
+
+mode = true
+btn.addEventListener("click" , ()=>{
+  if (mode){
+    console.log("dark")
+    bulb.src= "onbulb.jpg"
+    btn.innerText="Turn OFF"
+  }else {
+    console.log("light")
+    bulb.src= "offbulb.jpg"
+    btn.innerText="Turn ON"
+
+  }
+  mode = !mode
+})
 
