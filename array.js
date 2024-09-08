@@ -1,5 +1,5 @@
 // Array it can hold more than 0ne value with diffrent data type for example -
-let array = [ "car" , "bus", "truck" , "train" , "bike" ]
+// let array = [ "car" , "bus", "truck" , "train" , "bike" ]
              // 0       1       2         3         4 
 //  console.log(array)   [ 'car', 'bus', 'truck', 'train', 'bike' ]
 
@@ -43,8 +43,8 @@ let array = [ "car" , "bus", "truck" , "train" , "bike" ]
 // console.log(array)     [ 'superbike', 'ship', 'car', 'bus', 'truck', 'train', 'bike' ]
 
 // 8. Array concat() - it is used to join two diff array and more than 2 array as well .
- let arr1 = [2 , 3 , 4 , 5 , 6 ,7]
- let arr2 = ["man" , "person" , "india"]
+//  let arr1 = [2 , 3 , 4 , 5 , 6 ,7]
+//  let arr2 = ["man" , "person" , "india"]
 //  let arr3 = arr1.concat(arr2)
 //  console.log(arr3)    [ 2, 3, 4, 5, 6, 7, 'man', 'person', 'india' ]
 // let arr4 = arr1.concat(array).concat(arr2)
@@ -62,15 +62,10 @@ let array = [ "car" , "bus", "truck" , "train" , "bike" ]
 //  console.log(array)
 
 // 10. Array flat() - it convert sub-array to an array
-//  let str = [["car","bus"],[1,3,4],[false , true ]] ;
+//  let str = [["car"/,"bus"],[1,3,4],[false , true ]] ;
 //  let newarray = str.flat();
 //  console.log(newarray)
-//  [
-//     'car', 'bus', 1,
-//     3,     4,     false,
-//     true
-//   ]
-
+//    ['car', 'bus', 1, 3, 4, false, true]
 // 11. Array slice() - it used to print piece of code from the array
 //  let Slice= array.slice(1 , 4 )
 // console.log(Slice)   [ 'bus', 'truck', 'train' ]
@@ -81,6 +76,12 @@ let array = [ "car" , "bus", "truck" , "train" , "bike" ]
 // console.log(array)
 // array.splice(0 , 3 )
 // console.log(array)
+
+// 13 . indexof() Returns the index of the first element that satisfies the testing function.
+// const arr = [1, 1,2,2, 3, 4];
+// const index = arr.indexOf(3)
+
+// console.log(index)
 
 
 

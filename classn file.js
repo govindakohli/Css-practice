@@ -35,7 +35,7 @@
             //   console.log(a(8))
 
 
-            // 2. filter
+ // 2. filter
 
             // let arr = [1,56,89,3,8,60,30]
 
@@ -52,7 +52,7 @@
             //      })
             //      console.log(a)
 
-            // sort function
+// sort function
 
             // let arr = [100,56,89,3,8,60,30]
 
@@ -63,7 +63,7 @@
             //         console.log(value)
 
 
-            // forEach function
+// forEach function
 
             // let arr = [100,56,89,3,8,60,30];
 
@@ -75,7 +75,7 @@
 
 
 
-            // reduce function
+// reduce function
             // let arr = [1,2,3,45,60]
 
             // const z = arr.reduce((a,b)=>{
